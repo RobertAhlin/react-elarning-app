@@ -9,7 +9,7 @@ const NewsSection = () => {
 
   return (
     <div className={styles.newsSection}>
-      <h2>Latest News</h2>
+      <h2>Senaste nytt</h2>
       {latestNews.map((newsItem, index) => (
         <div key={index} className={styles.newsItem} data-testid="news-article">
           <h3>{newsItem.title}</h3>

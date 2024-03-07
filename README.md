@@ -1,8 +1,9 @@
 
 # e-learning
-This is an application that is mainly for the third project (Labb 3) in the course "Webbutveckling med React" at IT-högskolan.
-This is a Next.JS app that will use an API to YouTube to get the educational vidoes.
-
+This is an application that is mainly for the third project (Labb 3) in the course "Webbutveckling med React" at IT-högskolan.  
+This is a Next.js app that will be a foundation for an e-learning platform. Perhaps to use for a real life purpose. Let's see.  
+The course video materials are available on YouTube and are embedded to each respective course.  
+<img src="./readmefiles/demo.jpg" alt="Screenshot showing the e-larning app.">
 
 # Setting up
 Started by setting up the GitHub repo:
@@ -16,12 +17,13 @@ Since `npx create-next-app .` made something strange to the app.
 Start the development server: `npm run dev`  
 
 # Developement progress
-* After getting the YouTube API working. I soon discovered that my "unlisted" videos was not able to to be fetched. So instead I implemented to show a random quote to will encurage for happiness.
+* First I tried using an API to YouTube an actually got that working. I soon discovered that my "unlisted" videos was not able to to be fetched. So instead I implemented to show a random quote to will encurage for happiness.
 * Instead I made a database.json file with urls to all the videos.  
-* I made three pages. One for each course.
+* I made four pages. One for each course and one with a contact form. (The contact from is not yet functional it's out of the scope for the Lab 3, It's implemented for the component function.)
 * To meet the API critera; I instead fetch a quote that add happiness and incourage to studying.
-* Made some simple CSS styling.
-At this stage I had been struggeling with al kinds of things that didn't work as expected. So I ended up creating a new repo and created the app with another command described in the section above.
+* Made some simple CSS styling.  
+* At this stage I had been struggeling with all kinds of things that didn't work as expected. So I ended up creating a new repo and created the app with another command described in the section above.  
+* After getting everything to work in the new repo I created tests.
 
 # Components
 There are in total 13 components:
