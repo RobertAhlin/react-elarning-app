@@ -1,0 +1,19 @@
+/* components/NewsSection.module.css */
+
+.newsSection {
+    margin-top: 30px;
+    width: 60%; /* Set the width to 60% */
+    margin: 0 auto; /* Center the news section horizontally */
+    margin-bottom: 120px;;
+  }
+  
+  .newsItem {
+    background-color: #f2f2f2;
+    border-radius: 1.5vw 0.5vw 1.5vw 0.5vw;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 5px;
+  }
+  
+  .newsItem h3 {
+    margin-top: 0;
+  }

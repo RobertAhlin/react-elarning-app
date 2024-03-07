@@ -1,0 +1,19 @@
+{
+    "Nyheter": [
+      {
+        "title": "En ny plattform börjar komma på plats",
+        "date": "2024-03-07",
+        "text": "Äntligen börjar vår e-plattform komma på plats. Här är meningen att kunna gå titta och läras ig från videos inom olika kategorier"
+      },
+      {
+        "title": "Lorem Ipsum",
+        "date": "2024-03-06",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero ut mauris eleifend, eget dictum odio rutrum."
+      },
+      {
+        "title": "Dolor Sit Amet",
+        "date": "2024-03-05",
+        "text": "Duis fringilla magna quis urna vestibulum, nec dictum enim volutpat. Proin euismod, ipsum eget scelerisque varius, velit magna rhoncus metus, at egestas tortor risus sit amet lorem."
+      }
+    ]
+  }

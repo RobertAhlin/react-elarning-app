@@ -17,7 +17,7 @@ react-elearning-app
 |-- |-- Navbar.js
 |-- |-- QuoteList.js
 |-- db
-|-- |-- datavase.json
+|-- |-- database.json
 |-- node_modules
 |-- pages
 |-- |-- contact.js
