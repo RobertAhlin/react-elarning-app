@@ -1,0 +1,33 @@
+/* components/Card.module.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card {
+    width: 400px;
+    height: 225px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 1.5vw 0.5vw 1.5vw 0.5vw;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.card a:hover {
+    color: #000;
+}
+
+.mainWithMargin {
+    margin-top: 70px;
+    margin-bottom: 120px;
+  }

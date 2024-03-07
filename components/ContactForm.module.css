@@ -1,0 +1,55 @@
+/* components/ContactForm.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .textareaField {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: vertical;
+  }
+  
+  .submitButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
+  

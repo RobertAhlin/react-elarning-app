@@ -1,0 +1,40 @@
+{
+    "Introduktion till säkerhetsskydd": [
+        {"url": "https://youtu.be/LM76qM5nYgw", "label": "A1. Allmänt om säkerhetsskydd"},
+        {"url": "https://youtu.be/7cj8AOd0XwM", "label": "A2. Samhällsviktig verksamhet och totalförsvar"},
+        {"url": "https://youtu.be/r6bDIYD3lUU", "label": "A3. Hållbarhet"},
+        {"url": "https://youtu.be/ku9C8KoCPws", "label": "A4. Den svenska säkerhetsskyddslagstiftningen"},
+        {"url": "https://youtu.be/tevoLn0nAJM", "label": "A5. Hotet mot Sverige"},
+        {"url": "https://youtu.be/_YUtnzeo3rw", "label": "A6. Säkerhetsskyddsorganisationen"}
+    ],
+    "Personalsäkerhet": [
+        {"url": "https://youtu.be/tjn8Gl33VAA", "label": "A1. Allmänt om personalsäkerhet"},
+        {"url": "https://youtu.be/lm5QyJ8-97c", "label": "A2. Före, under, efter anställning"},
+        {"url": "https://youtu.be/4_3vCmV-nv8", "label": "A3a. Hotbilden - Insiders och agentvärvning"},
+        {"url": "https://youtu.be/HREKNI4iLTg", "label": "A3b. Hotbilden - Social Engineering"},
+        {"url": "https://youtu.be/fcgIZqPJE7c", "label": "A3c. Hotbilden - Cyberattacker"},
+        {"url": "https://youtu.be/CT9M37RFwTE", "label": "A4a. Säkerhetsprövning"},
+        {"url": "https://youtu.be/7WyYod7c6NI", "label": "A4b. Säkerhetsprövningsintervjun"},
+        {"url": "https://youtu.be/phfUxKOAb-M", "label": "A4c. Registerkontroll"},
+        {"url": "https://youtu.be/HWqeBLP0dCk", "label": "A5. Utfall, disciplinära åtgärder och straff"},
+        {"url": "https://youtu.be/dcc1mB4aB0U", "label": "A6a. Att bygga säkerhetskultur."},
+        {"url": "https://youtu.be/IWo0j11TS_4", "label": "A6b. Presentationsteknik, retorik och övning"}
+    ],
+    "Säkerhetsskyddsplanering": [
+        {"url": "https://youtu.be/g6GFt2NUNV0", "label": "A1. Allmänt om säkerhetsskyddsplanering"},
+        {"url": "https://youtu.be/030CXCw8f38", "label": "A2. Steg 1 Verksamhetsbeskrivning"},
+        {"url": "https://youtu.be/B-251Fpb_RA", "label": "A3. Steg 2 Skyddsvärden"},
+        {"url": "https://youtu.be/cYHIBmjHSpA", "label": "A4. Steg 3 Säkerhetshot"},
+        {"url": "https://youtu.be/w6iZICzw5tU", "label": "A5. Steg 4 Sårbarheter"},
+        {"url": "https://youtu.be/dWNUJEQCMQE", "label": "A6. Steg 5 Säkerhetsskyddsåtgärder"},
+        {"url": "https://youtu.be/y-qRI5bdp0A", "label": "A7. Sammanfattning"},
+        {"url": "https://youtu.be/qyGD0p9Sfr0", "label": "A8. Allmänt om upphandlingar"},
+        {"url": "https://youtu.be/qDyeo87THT8", "label": "A9. Inköpsprocessen steg för steg"},
+        {"url": "https://youtu.be/A1jR9tP1eB4", "label": "A10. Om upphandling med säkerhetsskyddsavtal"},
+        {"url": "https://youtu.be/o2B3akB3_zo", "label": "A11a. Processen för säkerhetsskyddad upphandling - Steg 1 Analys"},
+        {"url": "https://youtu.be/uM6jcSrUYyE", "label": "A11b. Processen för säkerhetsskyddad upphandling - Steg 2 Upphandlingsförfarande"},
+        {"url": "https://youtu.be/DrD3cg5SP7Y", "label": "A11c. Processen för säkerhetsskyddad upphandling - Steg 3 Uppdragets utförande"},
+        {"url": "https://youtu.be/eXQUnWYLSmI", "label": "A11d. Processen för säkerhetsskyddad upphandling - Steg 4 Avslut av uppdrag"},
+        {"url": "https://youtu.be/P5OLeQ8Fo5Q", "label": "A12. Internationella säkerhetsskyddsåtaganden"}
+    ]
+}
