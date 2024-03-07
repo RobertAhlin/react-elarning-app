@@ -1,2 +1,1 @@
-# react-elarning-app
-Lab 3, React developed e-learning platform
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
