@@ -47,16 +47,8 @@ Opened with GitHub Desktop
 Clonded and opened with VS Code
 
 ## Created a new Next.js project
-In terminal ran the following command: `npx create-next-app@latest . --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"` Since `npx create-next-app .` make something strange to the app.
-Choosed following options:  
-√ Would you like to use TypeScript? ... <u>No</u> / Yes  
-√ Would you like to use ESLint? ... No / <u>Yes</u>  
-√ Would you like to use Tailwind CSS? ... <u>No</u> / Yes  
-√ Would you like to use `src/` directory? ... <u>No</u> / Yes  
-√ Would you like to use App Router? (recommended) ... No / <u>Yes</u>  
-√ Would you like to customize the default import alias (@/*)? ... <u>No</u> / Yes  
-Creating a new Next.js app in F:\GitHub\react-i4-elearning.  
-
+In terminal ran the following command: `npx create-next-app@latest . --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"`  
+Since `npx create-next-app .` made something strange to the app.  
 Start the development server: `npm run dev`  
 
 # Developement progress
