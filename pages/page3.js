@@ -1,11 +1,11 @@
 // pages/page3.js
 
 import React from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import Card from '../../components/Card';
-import database from '../../db/database';
-import styles from '../../components/Card.module.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Card from '../components/Card';
+import database from '../db/database';
+import styles from '../components/Card.module.css';
 
 const Page3 = () => {
   const urls = database['Säkerhetsskyddsplanering'];
