@@ -7,7 +7,6 @@ const Header = () => {
   return (
     <header className={styles.header}>
         <Navbar />
-        <hr />
     </header>
   );
 };

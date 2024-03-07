@@ -42,12 +42,12 @@ This is a Next.JS app that will use an API to YouTube to get the educational vid
 
 # Setting up.
 Started by setting up the GitHub repo:
-https://github.com/RobertAhlin/react-i4-elearning  
+https://github.com/RobertAhlin/react-elearning-app  
 Opened with GitHub Desktop  
 Clonded and opened with VS Code
 
 ## Created a new Next.js project
-In terminal ran the following command: `npx create-next-app .`  
+In terminal ran the following command: `npx create-next-app@latest . --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"` Since `npx create-next-app .` make something strange to the app.
 Choosed following options:  
 √ Would you like to use TypeScript? ... <u>No</u> / Yes  
 √ Would you like to use ESLint? ... No / <u>Yes</u>  
@@ -58,7 +58,6 @@ Choosed following options:
 Creating a new Next.js app in F:\GitHub\react-i4-elearning.  
 
 Start the development server: `npm run dev`  
-<img src="readmefiles/nextjs-running.jpg" alt="Showing Next,js application running at first start up">
 
 # Developement progress
 * After getting the YouTube API working. I soon discovered that my "unlisted" videos was not able to to be fetched. So instead I implemented to show a random quote to will encurage for happiness.
@@ -66,34 +65,22 @@ Start the development server: `npm run dev`
 * I made three pages. One for each course.
 * To meet the API critera; I instead fetch a quote that add happiness and incourage to studying.
 * Made some simple CSS styling.
+At this stage I had been struggeling with al kinds of things that didn't work as expected. So I ended up creating a new repo and created the app with another command described in the section above.
 
 # Components
-There are in total 14 components:
-1. **Header**: This component represents the header section of your website, typically containing navigation links and any other header-related content.
+There are in total 13 components:
+1. **Card**: Displays a card containing embedded YouTube video.
+2. **ContactForm**: Renders a form for users to input their contact information and message.
+3. **Footer**: Contains a section at the bottom of the page, often used for displaying quotes or other information.
+4. **Header**: Typically located at the top of the page, containing navigation links and other header elements.
+5. **HeroSection**: Represents the hero section of the webpage, usually containing a large image or video with accompanying text.
+6. **Navbar**: Renders a navigation bar with links to different pages of the website.
+7. **NewsSection**: Displays the latest news items fetched from a JSON file, usually containing a title, date, and text.
+8. **QuoteList**: Fetches and displays a list of quotes from an external API, often used in the footer or other sections.
+9. **Kontakt**: Represents the contact page of the website, including a header, contact form, and footer.
+10. **Home**: The main landing page of the website, including a header, hero section, news section, and footer.
+11. **Page1**: Represents a specific page of the website, in this case, "Introduktion till säkerhetsskydd," displaying cards with relevant content.
+12. **Page2**: Represents another specific page of the website, focusing on "Personalsäkerhet," displaying cards with relevant content.
+13. **Page3**: Represents yet another specific page of the website, centered around "Säkerhetsskyddsplanering," displaying cards with relevant content.
 
-2. **Footer**: The footer component represents the footer section of your website, often containing links, contact information, or other supplementary content.
-
-3. **ContactForm**: This component is a form used for contacting the website owner or administrator. It includes fields for the user's name, email, subject, message, and a send button.
-
-4. **Navbar**: The Navbar component is responsible for rendering the navigation bar, which typically contains links to different pages or sections of the website.
-
-5. **QuoteList**: This component fetches and displays a list of quotes from an external API. It's used to showcase quotes in the footer section of the website.
-
-6. **HeroSection**: The HeroSection component is a prominent section at the top of a page, often containing a large image or video background, along with a title and subtitle.
-
-7. **Card**: The Card component represents a card or tile used to display content, such as links to videos or other resources. It's commonly used to present information in a visually appealing way.
-
-8. **Page1**: This component represents a specific page of your website, titled "Introduktion till säkerhetsskydd". It displays a list of cards related to security introduction.
-
-9. **Page2**: Similar to Page1, this component represents another page titled "Personalsäkerhet". It displays a list of cards related to personal security.
-
-10. **Page3**: This component represents yet another page titled "Säkerhetsskyddsplanering". It displays a list of cards related to security planning.
-
-11. **Layout**: The Layout component serves as a wrapper around the main content of each page. It includes the Header, HeroSection, Footer, and the main content of the page as children components.
-
-12. **Main**: The Main component represents the main content area of each page, excluding the header, hero section, and footer.
-
-13. **HeroSection (inside Layout)**: This is a specialized instance of the HeroSection component, specifically used within the Layout component to provide a hero section for each page.
-
-14. **Footer (inside Layout)**: Similar to the HeroSection, this is a specialized instance of the Footer component used within the Layout component to provide a consistent footer for each page.
 
