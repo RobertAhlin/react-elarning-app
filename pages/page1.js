@@ -1,15 +1,12 @@
-// pages/page1.js
+// pages/Page1.js
 
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
-import database from '../db/database';
 import styles from '../components/Card.module.css';
 
-const Page1 = () => {
-  const urls = database['Introduktion till säkerhetsskydd'];
-
+const Page1 = ({ urls }) => {
   return (
     <div>
       <Header />
@@ -27,5 +24,17 @@ const Page1 = () => {
     </div>
   );
 };
+
+export async function getStaticProps() {
+  // Fetch data from database.json
+  const database = require('../db/database.json');
+  const urls = database['Introduktion till säkerhetsskydd'];
+
+  return {
+    props: {
+      urls,
+    },
+  };
+}
 
 export default Page1;

@@ -4,12 +4,9 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Card from '../components/Card';
-import database from '../db/database';
 import styles from '../components/Card.module.css';
 
-const Page2 = () => {
-  const urls = database['Personalsäkerhet'];
-
+const Page2 = ({ urls }) => {
   return (
     <div>
       <Header />
@@ -27,5 +24,17 @@ const Page2 = () => {
     </div>
   );
 };
+
+export async function getStaticProps() {
+  // Fetch data from database.json
+  const database = require('../db/database.json');
+  const urls = database['Personalsäkerhet'];
+
+  return {
+    props: {
+      urls,
+    },
+  };
+}
 
 export default Page2;
