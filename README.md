@@ -9,15 +9,47 @@ The course video materials are available on YouTube and are embedded to each res
 Live link to a deployed version: <a href="https://react-elarning-app.vercel.app/" target="_blank">https://react-elarning-app.vercel.app/</a>
 
 # Setting up
-Started by setting up the GitHub repo:
+- Started by setting up the GitHub repo:
 https://github.com/RobertAhlin/react-elearning-app  
-Opened with GitHub Desktop  
-Clonded and opened with VS Code
+- Opened with GitHub Desktop  
+- Clonded and opened with VS Code
 
 ## Created a new Next.js project
 In terminal ran the following command: `npx create-next-app@latest . --use-npm --example "https://github.com/vercel/next-learn/tree/main/basics/learn-starter"`  
 Since `npx create-next-app .` made something strange to the app.  
 Start the development server: `npm run dev`  
+
+# User Interface
+1. Header Section:  
+Typically located at the top of the page, it navigation links or a menu for accessing different sections of the app.
+
+2. Navigation Bar:  
+The navigation bar provides users with easy access to different sections or pages of the app.
+It include links to essential pages such as home, courses, and contact.
+Users can use the navigation bar to navigate between different parts of the app quickly.
+
+3. Hero Section:  
+This section appears prominently on the homepage and contain a large image.
+It's designed to capture the user's attention and provide a brief overview or introduction to the app's content or purpose.
+In this app, the Hero Section likely welcomes users to the e-learning platform and invites them to explore available resources.
+
+4. Content Sections:  
+The app includes multiple content sections, each focusing on a specific tcourses of resources.
+Each content section contain a collection of cards  representing individual resources, such as videos, articles, or lessons.
+
+5. Card Components:  
+Cards are used to display individual resources within content sections.
+Each card typically includes a thumbnail video, viewable where it is or open the video on YouTube.
+
+6. Footer Section:  
+Similar to the header, the footer appears at the bottom of the page and may contain a random Quote. The purpose of the quote is to encourage to learning.
+
+7. Contact Form:  
+The app include a contact form that allows users to send messages or inquiries to the app's administrators.
+The contact form collects user input such as name, email, subject, and message. In this project, sending the form is not implemented the "Send" button doesn't do anything. Just to save time on the project as it out of scope for the assesment criterias.
+
+## Styling
+Some visual styling has been done. Mostly to get a feeling of where the header, hero image and footer is. As well as the cards. I've choosed to not focus on too much styling as that is not in the scope for the assessment.
 
 # Developement progress
 * First I tried using an API to YouTube an actually got that working. I soon discovered that my "unlisted" videos was not able to to be fetched. So instead I implemented to show a random quote to will encurage for happiness.
