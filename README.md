@@ -1,8 +1,6 @@
 
 # e-learning
-This is an application that is mainly for the third project (Labb 3) in the course "Webbutveckling med React" at IT-högskolan.  
-This is a Next.js app that will be a foundation for an e-learning platform. Perhaps to use for a real life purpose. Let's see.  
-The course video materials are available on YouTube and are embedded to each respective course.  
+This is an application that is mainly for the third project (Labb 3) in the course "Webbutveckling med React" at IT-högskolan.  This is a Next.js app that will be a foundation for an e-learning platform. Perhaps to use for a real life purpose. Let's see. The course video materials are available on YouTube and are embedded to each respective course.  
 <img src="./readmefiles/demo.jpg" alt="Screenshot showing the e-larning app.">
 
 # Demo
@@ -52,7 +50,7 @@ The contact form collects user input such as name, email, subject, and message. 
 Some visual styling has been done. Mostly to get a feeling of where the header, hero image and footer is. As well as the cards. I've choosed to not focus on too much styling as that is not in the scope for the assessment.
 
 # Developement progress
-* First I tried using an API to YouTube an actually got that working. I soon discovered that my "unlisted" videos was not able to to be fetched. So instead I implemented to show a random quote to will encurage for happiness.
+* First I tried using an API to YouTube and actually got that working. I soon discovered that my "unlisted" videos was not able to to be fetched. The YouTubeApi.js file is still included for future developing.
 * Instead I made a database.json file with urls to all the videos.  
 * I made four pages. One for each course and one with a contact form. (The contact from is not yet functional it's out of the scope for the Lab 3, It's implemented for the component function.)
 * To meet the API critera; I instead fetch a quote that add happiness and incourage to studying.
@@ -174,3 +172,11 @@ Yes. I follow best pracicies about
 - Spacing: Maintain consistent spacing around operators, commas, braces, and other syntactic elements.
 - Code Structure: Organize the code in a clear and consistent manner. Use consistent patterns for component structure, file organization, and module imports.
 - Linting and Formatting Tools: Using ESLint and Prettier extension.
+
+# Future development
+As for any project it feels as you can do endless of things. But some of the things that I actually might do is.
+- Style the header and footer.
+- Make the cards "expandable" to get more information, bigger videos and other things.
+- Implement functions to the contact form.
+- Make quizes or any other examination test for futher learning.
+- Add a chat where students can chat with a teacher or tutor.
