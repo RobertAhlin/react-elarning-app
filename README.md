@@ -107,7 +107,7 @@ All test pass:
 Deployed to Vercel using this guide: <a href="https://nextjs.org/learn-pages-router/basics/deploying-nextjs-app" target="_blank">Deploying Your Next.js App</a>
 
 # Checking Assessment criteria
-## For G
+### For G
 
 **1. Create a project on GitHub and link to the project when submitting.**  
 Yes. Link to GitHub: <a href="https://github.com/RobertAhlin/react-elearning-app" target="_blank">https://github.com/RobertAhlin/react-elearning-app</a>
@@ -157,7 +157,7 @@ Read more about each test in the Tests section above.
 **7. Deploy your React application to vercel.com.**  
 Yes. It is deployded to Vercel: <a href="https://react-elarning-app.vercel.app/" target="_blank">https://react-elarning-app.vercel.app/</a>
 
-## For VG (Higher Grade):
+### For VG
 
 **8. At least 12 components.**  
 Yes, see Components section above.
@@ -178,10 +178,11 @@ As for any project it feels as you can do endless of things. But some of the thi
 - Style the header and footer.
 - Make the cards "expandable" to get more information, bigger videos and other things.
 - Implement functions to the contact form.
-- Make quizes or any other examination test for futher learning.
+- Make quizes or any other examination test for more learning.
 - Add a chat where students can chat with a teacher or tutor.
 
 # Credits
 - stack overflow: https://stackoverflow.co/ for all the knowledge out there.
 - Next.js org: https://nextjs.org/ for guides and help.
 - ChatGPT: https://chat.openai.com/ for helping me toubleshoot.
+- Vercel at GitHub: https://github.com/vercel/next-learn/tree/main/basics/learn-starter providing a base template to start with.
