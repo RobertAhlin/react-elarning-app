@@ -1,5 +1,3 @@
-// components/NewsSection.js
-
 import React from 'react';
 import newsData from '../db/news.json';
 import styles from './NewsSection.module.css';

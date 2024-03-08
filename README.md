@@ -180,3 +180,8 @@ As for any project it feels as you can do endless of things. But some of the thi
 - Implement functions to the contact form.
 - Make quizes or any other examination test for futher learning.
 - Add a chat where students can chat with a teacher or tutor.
+
+# Credits
+- stack overflow: https://stackoverflow.co/ for all the knowledge out there.
+- Next.js org: https://nextjs.org/ for guides and help.
+- ChatGPT: https://chat.openai.com/ for helping me toubleshoot.

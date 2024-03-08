@@ -1,5 +1,3 @@
-// components/NewsSection.test.js
-
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import NewsSection from './NewsSection';

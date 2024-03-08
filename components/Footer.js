@@ -1,5 +1,3 @@
-// components/Footer.js
-
 import React from 'react';
 import QuoteList from '../components/QuoteList';
 import styles from './Footer.module.css';

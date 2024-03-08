@@ -1,5 +1,3 @@
-// pages/index.js
-
 import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection'; // Import the HeroSection component

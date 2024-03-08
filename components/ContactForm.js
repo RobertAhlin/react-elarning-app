@@ -1,7 +1,5 @@
-// app/components/ContactForm.js
-
 import React from 'react';
-import styles from './ContactForm.module.css'; // Import CSS module for styling
+import styles from './ContactForm.module.css';
 
 const ContactForm = () => {
   return (

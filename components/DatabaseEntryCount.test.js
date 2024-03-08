@@ -1,5 +1,3 @@
-// components/DatabaseEntryCount.test.js
-
 import fs from 'fs';
 
 describe('Card', () => {
